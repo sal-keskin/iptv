@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-17T10:55:00Z",
+  "generated": "2026-10-17T11:26:48Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -38,7 +38,10 @@
           "labels": [],
           "matchedName": "ATV (1080p)",
           "matchedTvgId": "ATV.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         },
         {
           "url": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8",
@@ -53,7 +56,10 @@
           "labels": [],
           "matchedName": "ATV (360p)",
           "matchedTvgId": "ATV.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -75,7 +81,10 @@
           "labels": [],
           "matchedName": "Kanal D (1080p)",
           "matchedTvgId": "KanalD.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -97,7 +106,10 @@
           "labels": [],
           "matchedName": "Star TV (720p)",
           "matchedTvgId": "StarTV.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -113,6 +125,24 @@
       "name": "TV8",
       "candidates": [
         {
+          "url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "TV 8 (1080p)",
+          "matchedTvgId": "TV8.tr@SD",
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
+        },
+        {
           "url": "https://tv8-live.daioncdn.net/tv8/tv8.m3u8",
           "source": "iptvorg-tr",
           "tier": "EXACT_ID",
@@ -127,22 +157,10 @@
           ],
           "matchedName": "TV 8 (1080p) [Not 24/7]",
           "matchedTvgId": "TV8.tr@SD",
-          "ciCheck": null
-        },
-        {
-          "url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
-          "source": "iptvorg-tr",
-          "tier": "EXACT_ID",
-          "tierCode": 1,
-          "score": 1.0,
-          "trust": 0.9,
-          "priority": 0.9,
-          "heightHint": 1080,
-          "headers": {},
-          "labels": [],
-          "matchedName": "TV 8 (1080p)",
-          "matchedTvgId": "TV8.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": false,
+            "reason": "HTTP 403"
+          }
         }
       ]
     },
@@ -164,7 +182,10 @@
           "labels": [],
           "matchedName": "TRT 1 (1440p)",
           "matchedTvgId": "TRT1.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -186,7 +207,10 @@
           "labels": [],
           "matchedName": "NOW TV (720p)",
           "matchedTvgId": "NOWTV.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         },
         {
           "url": "http://116.202.238.88/FOXTV_TR/index.m3u8",
@@ -201,7 +225,10 @@
           "labels": [],
           "matchedName": "NOW TV",
           "matchedTvgId": "NOWTV.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": false,
+            "reason": "URLError"
+          }
         }
       ]
     },
@@ -225,7 +252,10 @@
           ],
           "matchedName": "Kanal 7 (1080p) [Not 24/7]",
           "matchedTvgId": "Kanal7.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         },
         {
           "url": "https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8",
@@ -240,7 +270,10 @@
           "labels": [],
           "matchedName": "Kanal 7 (720p)",
           "matchedTvgId": "Kanal7.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": false,
+            "reason": "URLError"
+          }
         }
       ]
     },
@@ -262,7 +295,10 @@
           "labels": [],
           "matchedName": "Halk TV (1080p)",
           "matchedTvgId": "HalkTV.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -284,7 +320,10 @@
           "labels": [],
           "matchedName": "TRT Haber (720p)",
           "matchedTvgId": "TRTHaber.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -308,7 +347,10 @@
           ],
           "matchedName": "Beyaz TV (720p) [Not 24/7]",
           "matchedTvgId": "BeyazTV.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": false,
+            "reason": "RemoteDisconnected"
+          }
         }
       ]
     },
@@ -336,7 +378,10 @@
           "labels": [],
           "matchedName": "TRT Spor Ⓖ",
           "matchedTvgId": "TRTSpor.tr",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": false,
+            "reason": "HTTP 403"
+          }
         }
       ]
     },
@@ -364,7 +409,10 @@
           "labels": [],
           "matchedName": "A2TV (1080p)",
           "matchedTvgId": "A2TV.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -392,7 +440,10 @@
           "labels": [],
           "matchedName": "A Haber (1080p)",
           "matchedTvgId": "AHaber.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -414,7 +465,10 @@
           "labels": [],
           "matchedName": "TRT Belgesel (720p)",
           "matchedTvgId": "TRTBelgesel.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": false,
+            "reason": "HTTP 403"
+          }
         },
         {
           "url": "https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8",
@@ -429,7 +483,10 @@
           "labels": [],
           "matchedName": "TRT Belgesel",
           "matchedTvgId": "TRTBelgesel.tr",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": false,
+            "reason": "HTTP 503"
+          }
         }
       ]
     },
@@ -451,7 +508,10 @@
           "labels": [],
           "matchedName": "TRT Cocuk (1440p)",
           "matchedTvgId": "TRTCocuk.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -473,7 +533,10 @@
           "labels": [],
           "matchedName": "A Spor (1080p)",
           "matchedTvgId": "ASpor.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -497,7 +560,10 @@
           ],
           "matchedName": "360 TV (720p) [Not 24/7]",
           "matchedTvgId": "360.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -519,7 +585,10 @@
           "labels": [],
           "matchedName": "NTV",
           "matchedTvgId": "NTV.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -543,7 +612,10 @@
           ],
           "matchedName": "Habertürk TV (720p) [Not 24/7]",
           "matchedTvgId": "HaberturkTV.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -583,7 +655,10 @@
           "labels": [],
           "matchedName": "TGRT Haber (720p)",
           "matchedTvgId": "TGRTHaber.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         },
         {
           "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8",
@@ -600,7 +675,10 @@
           ],
           "matchedName": "TGRT Haber (360p) [Not 24/7]",
           "matchedTvgId": "TGRTHaber.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -622,7 +700,10 @@
           "labels": [],
           "matchedName": "Minika Cocuk (720p)",
           "matchedTvgId": "MinikaCocuk.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         },
         {
           "url": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8",
@@ -637,7 +718,10 @@
           "labels": [],
           "matchedName": "Minika Cocuk (576p)",
           "matchedTvgId": "MinikaCocuk.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -659,7 +743,10 @@
           "labels": [],
           "matchedName": "Ulke TV",
           "matchedTvgId": "UlkeTV.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": false,
+            "reason": "HTTP 403"
+          }
         }
       ]
     },
@@ -683,7 +770,10 @@
           ],
           "matchedName": "Haber Global (720p) [Not 24/7]",
           "matchedTvgId": "HaberGlobal.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -711,7 +801,10 @@
           "labels": [],
           "matchedName": "TRT Müzik (720p)",
           "matchedTvgId": "TRTMuzik.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -735,7 +828,10 @@
           ],
           "matchedName": "TRT Spor Yildiz (1440p) [Geo-blocked]",
           "matchedTvgId": "TRTSporYildiz.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     },
@@ -775,7 +871,10 @@
           "labels": [],
           "matchedName": "Tele 1 (1080p)",
           "matchedTvgId": "Tele1.tr@SD",
-          "ciCheck": null
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
         }
       ]
     }
