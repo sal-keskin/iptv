@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "self",
+      "type": "m3u",
+      "url": "{registry}/playlist.m3u",
+      "trust": 1.0
+    },
+    {
+      "id": "iptvorg-tr",
+      "type": "m3u",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tr.m3u",
+      "trust": 0.9
+    },
+    {
+      "id": "iptvorg-api",
+      "type": "iptvorg-api",
+      "url": "https://iptv-org.github.io/api/streams.json",
+      "filterCountry": "TR",
+      "trust": 0.85
+    },
+    {
+      "id": "free-tv",
+      "type": "m3u",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_turkey.m3u8",
+      "trust": 0.7
+    }
+  ],
+  "officialHosts": [
+    "medya.trt.com.tr",
+    "daioncdn.net",
+    "ercdn.net",
+    "tgrthaber.com",
+    "blutv.com",
+    "mncdn.com"
+  ],
+  "blockedHosts": [
+    "siteyaptim.live",
+    "freeott.top",
+    "cinerama.uz"
+  ]
+}

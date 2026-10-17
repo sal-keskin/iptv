@@ -1,0 +1,783 @@
+{
+  "schemaVersion": 1,
+  "generated": "2026-10-17T10:55:00Z",
+  "ciCheckIsHintOnly": true,
+  "sources": {
+    "self": {
+      "skipped": "this repository's output"
+    },
+    "iptvorg-tr": {
+      "ok": true,
+      "candidates": 215
+    },
+    "iptvorg-api": {
+      "ok": true,
+      "candidates": 243
+    },
+    "free-tv": {
+      "ok": true,
+      "candidates": 16
+    }
+  },
+  "channels": [
+    {
+      "id": "ATV.tr",
+      "rank": 1,
+      "name": "ATV",
+      "candidates": [
+        {
+          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "ATV (1080p)",
+          "matchedTvgId": "ATV.tr@SD",
+          "ciCheck": null
+        },
+        {
+          "url": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 360,
+          "headers": {},
+          "labels": [],
+          "matchedName": "ATV (360p)",
+          "matchedTvgId": "ATV.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "KanalD.tr",
+      "rank": 2,
+      "name": "Kanal D",
+      "candidates": [
+        {
+          "url": "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "Kanal D (1080p)",
+          "matchedTvgId": "KanalD.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "StarTV.tr",
+      "rank": 3,
+      "name": "Star TV",
+      "candidates": [
+        {
+          "url": "https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [],
+          "matchedName": "Star TV (720p)",
+          "matchedTvgId": "StarTV.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "ShowTV.tr",
+      "rank": 4,
+      "name": "Show TV",
+      "candidates": []
+    },
+    {
+      "id": "TV8.tr",
+      "rank": 5,
+      "name": "TV8",
+      "candidates": [
+        {
+          "url": "https://tv8-live.daioncdn.net/tv8/tv8.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [
+            "not 24/7"
+          ],
+          "matchedName": "TV 8 (1080p) [Not 24/7]",
+          "matchedTvgId": "TV8.tr@SD",
+          "ciCheck": null
+        },
+        {
+          "url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "TV 8 (1080p)",
+          "matchedTvgId": "TV8.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "TRT1.tr",
+      "rank": 6,
+      "name": "TRT 1",
+      "candidates": [
+        {
+          "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.765,
+          "heightHint": 1440,
+          "headers": {},
+          "labels": [],
+          "matchedName": "TRT 1 (1440p)",
+          "matchedTvgId": "TRT1.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "NOWTV.tr",
+      "rank": 7,
+      "name": "NOW",
+      "candidates": [
+        {
+          "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [],
+          "matchedName": "NOW TV (720p)",
+          "matchedTvgId": "NOWTV.tr@SD",
+          "ciCheck": null
+        },
+        {
+          "url": "http://116.202.238.88/FOXTV_TR/index.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.675,
+          "priority": 0.675,
+          "heightHint": null,
+          "headers": {},
+          "labels": [],
+          "matchedName": "NOW TV",
+          "matchedTvgId": "NOWTV.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "Kanal7.tr",
+      "rank": 8,
+      "name": "Kanal 7",
+      "candidates": [
+        {
+          "url": "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [
+            "not 24/7"
+          ],
+          "matchedName": "Kanal 7 (1080p) [Not 24/7]",
+          "matchedTvgId": "Kanal7.tr@SD",
+          "ciCheck": null
+        },
+        {
+          "url": "https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [],
+          "matchedName": "Kanal 7 (720p)",
+          "matchedTvgId": "Kanal7.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "HalkTV.tr",
+      "rank": 9,
+      "name": "Halk TV",
+      "candidates": [
+        {
+          "url": "https://halktv-live.daioncdn.net/halktv/halktv.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "Halk TV (1080p)",
+          "matchedTvgId": "HalkTV.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "TRTHaber.tr",
+      "rank": 10,
+      "name": "TRT Haber",
+      "candidates": [
+        {
+          "url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [],
+          "matchedName": "TRT Haber (720p)",
+          "matchedTvgId": "TRTHaber.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "BeyazTV.tr",
+      "rank": 11,
+      "name": "Beyaz TV",
+      "candidates": [
+        {
+          "url": "https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [
+            "not 24/7"
+          ],
+          "matchedName": "Beyaz TV (720p) [Not 24/7]",
+          "matchedTvgId": "BeyazTV.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "CNNTurk.tr",
+      "rank": 12,
+      "name": "CNN Türk",
+      "candidates": []
+    },
+    {
+      "id": "TRTSpor.tr",
+      "rank": 13,
+      "name": "TRT Spor",
+      "candidates": [
+        {
+          "url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8",
+          "source": "free-tv",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.7,
+          "priority": 0.7,
+          "heightHint": null,
+          "headers": {},
+          "labels": [],
+          "matchedName": "TRT Spor Ⓖ",
+          "matchedTvgId": "TRTSpor.tr",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "tv2.tr",
+      "rank": 14,
+      "name": "TV2",
+      "candidates": []
+    },
+    {
+      "id": "A2TV.tr",
+      "rank": 15,
+      "name": "A2",
+      "candidates": [
+        {
+          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "A2TV (1080p)",
+          "matchedTvgId": "A2TV.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "SozcuTV.tr",
+      "rank": 16,
+      "name": "Sözcü TV",
+      "candidates": []
+    },
+    {
+      "id": "AHaber.tr",
+      "rank": 17,
+      "name": "A Haber",
+      "candidates": [
+        {
+          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "A Haber (1080p)",
+          "matchedTvgId": "AHaber.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "TRTBelgesel.tr",
+      "rank": 18,
+      "name": "TRT Belgesel",
+      "candidates": [
+        {
+          "url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [],
+          "matchedName": "TRT Belgesel (720p)",
+          "matchedTvgId": "TRTBelgesel.tr@SD",
+          "ciCheck": null
+        },
+        {
+          "url": "https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8",
+          "source": "free-tv",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.7,
+          "priority": 0.7,
+          "heightHint": null,
+          "headers": {},
+          "labels": [],
+          "matchedName": "TRT Belgesel",
+          "matchedTvgId": "TRTBelgesel.tr",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "TRTCocuk.tr",
+      "rank": 19,
+      "name": "TRT Çocuk",
+      "candidates": [
+        {
+          "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.765,
+          "heightHint": 1440,
+          "headers": {},
+          "labels": [],
+          "matchedName": "TRT Cocuk (1440p)",
+          "matchedTvgId": "TRTCocuk.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "ASpor.tr",
+      "rank": 20,
+      "name": "A Spor",
+      "candidates": [
+        {
+          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "A Spor (1080p)",
+          "matchedTvgId": "ASpor.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "360.tr",
+      "rank": 21,
+      "name": "360",
+      "candidates": [
+        {
+          "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [
+            "not 24/7"
+          ],
+          "matchedName": "360 TV (720p) [Not 24/7]",
+          "matchedTvgId": "360.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "NTV.tr",
+      "rank": 22,
+      "name": "NTV",
+      "candidates": [
+        {
+          "url": "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": null,
+          "headers": {},
+          "labels": [],
+          "matchedName": "NTV",
+          "matchedTvgId": "NTV.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "HaberturkTV.tr",
+      "rank": 23,
+      "name": "Habertürk",
+      "candidates": [
+        {
+          "url": "https://tv.ensonhaber.com/haberturk/haberturk.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.675,
+          "priority": 0.675,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [
+            "not 24/7"
+          ],
+          "matchedName": "Habertürk TV (720p) [Not 24/7]",
+          "matchedTvgId": "HaberturkTV.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "TLC.tr",
+      "rank": 25,
+      "name": "TLC",
+      "candidates": []
+    },
+    {
+      "id": "DMAX.tr",
+      "rank": 26,
+      "name": "DMAX",
+      "candidates": []
+    },
+    {
+      "id": "TV100.tr",
+      "rank": 27,
+      "name": "TV100",
+      "candidates": []
+    },
+    {
+      "id": "TGRTHaber.tr",
+      "rank": 28,
+      "name": "TGRT Haber",
+      "candidates": [
+        {
+          "url": "https://canli.tgrthaber.com/tgrt.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [],
+          "matchedName": "TGRT Haber (720p)",
+          "matchedTvgId": "TGRTHaber.tr@SD",
+          "ciCheck": null
+        },
+        {
+          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.675,
+          "priority": 0.675,
+          "heightHint": 360,
+          "headers": {},
+          "labels": [
+            "not 24/7"
+          ],
+          "matchedName": "TGRT Haber (360p) [Not 24/7]",
+          "matchedTvgId": "TGRTHaber.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "MinikaCocuk.tr",
+      "rank": 29,
+      "name": "Minika Çocuk",
+      "candidates": [
+        {
+          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [],
+          "matchedName": "Minika Cocuk (720p)",
+          "matchedTvgId": "MinikaCocuk.tr@SD",
+          "ciCheck": null
+        },
+        {
+          "url": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 576,
+          "headers": {},
+          "labels": [],
+          "matchedName": "Minika Cocuk (576p)",
+          "matchedTvgId": "MinikaCocuk.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "UlkeTV.tr",
+      "rank": 30,
+      "name": "Ülke TV",
+      "candidates": [
+        {
+          "url": "http://217.174.229.138:8000/play/a0el",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.675,
+          "priority": 0.675,
+          "heightHint": null,
+          "headers": {},
+          "labels": [],
+          "matchedName": "Ulke TV",
+          "matchedTvgId": "UlkeTV.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "HaberGlobal.tr",
+      "rank": 31,
+      "name": "Haber Global",
+      "candidates": [
+        {
+          "url": "https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.675,
+          "priority": 0.675,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [
+            "not 24/7"
+          ],
+          "matchedName": "Haber Global (720p) [Not 24/7]",
+          "matchedTvgId": "HaberGlobal.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "TV85.tr",
+      "rank": 32,
+      "name": "TV8,5",
+      "candidates": []
+    },
+    {
+      "id": "TRTMuzik.tr",
+      "rank": 33,
+      "name": "TRT Müzik",
+      "candidates": [
+        {
+          "url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [],
+          "matchedName": "TRT Müzik (720p)",
+          "matchedTvgId": "TRTMuzik.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "TRTSporYildiz.tr",
+      "rank": 34,
+      "name": "TRT Spor Yıldız",
+      "candidates": [
+        {
+          "url": "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.765,
+          "heightHint": 1440,
+          "headers": {},
+          "labels": [
+            "geo-blocked"
+          ],
+          "matchedName": "TRT Spor Yildiz (1440p) [Geo-blocked]",
+          "matchedTvgId": "TRTSporYildiz.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    },
+    {
+      "id": "BiKanal.tr",
+      "rank": 35,
+      "name": "Bi Kanal",
+      "candidates": []
+    },
+    {
+      "id": "FlashTV.tr",
+      "rank": 36,
+      "name": "Flash TV",
+      "candidates": []
+    },
+    {
+      "id": "UlusalKanal.tr",
+      "rank": 37,
+      "name": "Ulusal Kanal",
+      "candidates": []
+    },
+    {
+      "id": "Tele1.tr",
+      "rank": 38,
+      "name": "Tele1",
+      "candidates": [
+        {
+          "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "Tele 1 (1080p)",
+          "matchedTvgId": "Tele1.tr@SD",
+          "ciCheck": null
+        }
+      ]
+    }
+  ]
+}

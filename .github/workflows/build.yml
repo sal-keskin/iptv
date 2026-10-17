@@ -1,0 +1,51 @@
+name: Build playlist
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - playlist.m3u
+      - candidates.json
+  schedule:
+    # nightly, 03:17 UTC (06:17 in Türkiye)
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-playlist
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test matching rules
+        run: |
+          python -m pip install --quiet pytest
+          python -m pytest -q tests
+
+      - name: Build playlist.m3u and candidates.json
+        # the liveness check runs outside Türkiye: it is a hint, never a reason to drop a url
+        run: python scripts/build_registry.py --check
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u candidates.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update playlist [skip ci]"
+            git push
+          fi

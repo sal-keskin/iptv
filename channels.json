@@ -1,0 +1,660 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-17",
+  "title": "TR TV",
+  "channels": [
+    {
+      "id": "ATV.tr",
+      "rank": 1,
+      "name": "ATV",
+      "aliases": [
+        "ATV HD",
+        "ATV Türkiye"
+      ],
+      "exclude": [
+        "ATV Avrupa",
+        "ATV Alanya",
+        "A2",
+        "A Haber",
+        "A Spor",
+        "A Para"
+      ],
+      "group": "Ulusal",
+      "logo": "https://i.imgur.com/HyVUwFC.png",
+      "officialLivePage": "https://www.atv.com.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "KanalD.tr",
+      "rank": 2,
+      "name": "Kanal D",
+      "aliases": [
+        "KanalD"
+      ],
+      "exclude": [
+        "Kanal D Drama",
+        "Kanal D Avrupa",
+        "Kanal D Romania"
+      ],
+      "group": "Ulusal",
+      "logo": "https://i.imgur.com/9o1atM6.png",
+      "officialLivePage": "https://www.kanald.com.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "StarTV.tr",
+      "rank": 3,
+      "name": "Star TV",
+      "aliases": [],
+      "exclude": [
+        "Star TV Avrupa",
+        "Star Haber"
+      ],
+      "group": "Ulusal",
+      "logo": "https://i.imgur.com/9O3DHRB.png",
+      "officialLivePage": "https://www.startv.com.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "ShowTV.tr",
+      "rank": 4,
+      "name": "Show TV",
+      "aliases": [],
+      "exclude": [
+        "Show Turk",
+        "Show Max",
+        "Show Haber"
+      ],
+      "group": "Ulusal",
+      "logo": "https://i.imgur.com/1l7SCCu.png",
+      "officialLivePage": "https://www.showtv.com.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true,
+      "note": "Not in public stream lists. Its official page declares a tokenized stream; the app can read it on the viewer's TV (opt-in, Settings > Live TV).",
+      "resolver": {
+        "type": "webview",
+        "page": "https://www.showtv.com.tr/canli-yayin",
+        "match": "showtv/showtv\\.m3u8",
+        "hosts": [
+          "daioncdn.net"
+        ],
+        "ttlMinutes": 60,
+        "terms": "https://www.showtv.com.tr/info/kullanim-kosullari",
+        "termsReviewed": "2026-10-17: the terms allow content watched on the site for personal, individual use only, and forbid commercial use, passing it to third parties, copying, reproducing and archiving. robots.txt disallows /canli-yayin only for Googlebot-Video. So: read on the viewer's own device, played for that viewer, never published, never cached to disk."
+      }
+    },
+    {
+      "id": "TV8.tr",
+      "rank": 5,
+      "name": "TV8",
+      "aliases": [
+        "TV 8"
+      ],
+      "exclude": [
+        "TV8,5",
+        "TV 8.5",
+        "TV8.5",
+        "TV8int",
+        "TV8 International"
+      ],
+      "group": "Ulusal",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png",
+      "officialLivePage": "https://www.tv8.com.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "TRT1.tr",
+      "rank": 6,
+      "name": "TRT 1",
+      "aliases": [
+        "TRT1"
+      ],
+      "exclude": [
+        "TRT 2",
+        "TRT Türk",
+        "TRT World"
+      ],
+      "group": "Ulusal",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png",
+      "officialLivePage": "https://www.tabii.com/tr/watch/live/trt1",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "NOWTV.tr",
+      "rank": 7,
+      "name": "NOW",
+      "aliases": [
+        "NOW TV",
+        "FOX TV",
+        "FOX Türkiye"
+      ],
+      "exclude": [
+        "NOW Avrupa"
+      ],
+      "group": "Ulusal",
+      "logo": "https://i.imgur.com/5EYjWK7.png",
+      "officialLivePage": "https://www.nowtv.com.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "Kanal7.tr",
+      "rank": 8,
+      "name": "Kanal 7",
+      "aliases": [
+        "Kanal7"
+      ],
+      "exclude": [
+        "Kanal 7 Avrupa"
+      ],
+      "group": "Ulusal",
+      "logo": "https://i.imgur.com/0gq9xOm.png",
+      "officialLivePage": "https://www.kanal7.com/canli-izle",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "HalkTV.tr",
+      "rank": 9,
+      "name": "Halk TV",
+      "aliases": [],
+      "exclude": [],
+      "group": "Haber",
+      "logo": "https://i.imgur.com/xM0HA30.png",
+      "officialLivePage": "https://halktv.com.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "TRTHaber.tr",
+      "rank": 10,
+      "name": "TRT Haber",
+      "aliases": [],
+      "exclude": [],
+      "group": "Haber",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png",
+      "officialLivePage": "https://www.trthaber.com/canli-yayin-izle.html",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "BeyazTV.tr",
+      "rank": 11,
+      "name": "Beyaz TV",
+      "aliases": [],
+      "exclude": [],
+      "group": "Ulusal",
+      "logo": "https://i.imgur.com/uykIdML.png",
+      "officialLivePage": "https://beyaztv.com.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "CNNTurk.tr",
+      "rank": 12,
+      "name": "CNN Türk",
+      "aliases": [
+        "CNN Turk",
+        "CNNTürk"
+      ],
+      "exclude": [
+        "CNN International"
+      ],
+      "group": "Haber",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/CNN_T%C3%BCrk_logo.svg/960px-CNN_T%C3%BCrk_logo.svg.png",
+      "officialLivePage": "https://www.cnnturk.com/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true,
+      "note": "Not in public stream lists. No resolver on purpose: cnnturk.com's robots.txt disallows /*index.m3u8 for every agent and blocks AI agents (checked 2026-10-17). Add a pinned url only with the broadcaster's permission."
+    },
+    {
+      "id": "TRTSpor.tr",
+      "rank": 13,
+      "name": "TRT Spor",
+      "aliases": [],
+      "exclude": [
+        "TRT Spor Yıldız",
+        "TRT Spor 2"
+      ],
+      "group": "Spor",
+      "logo": "https://i.imgur.com/6tv0zxh.png",
+      "officialLivePage": "https://www.tabii.com/tr/watch/live/trtspor",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "tv2.tr",
+      "rank": 14,
+      "name": "TV2",
+      "aliases": [
+        "teve2",
+        "Teve 2"
+      ],
+      "exclude": [
+        "TV 264",
+        "TJK TV 2",
+        "ÜÜ TV 2"
+      ],
+      "group": "Ulusal",
+      "logo": "https://i.imgur.com/rsoSLih.png",
+      "officialLivePage": "https://www.tv2.com.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true,
+      "note": "iptv-org id is lowercase tv2.tr (alt name Teve2). Not in iptv-org streams."
+    },
+    {
+      "id": "A2TV.tr",
+      "rank": 15,
+      "name": "A2",
+      "aliases": [
+        "A2 TV",
+        "A2TV"
+      ],
+      "exclude": [
+        "A Haber",
+        "A Spor",
+        "A Para"
+      ],
+      "group": "Ulusal",
+      "logo": "https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png",
+      "officialLivePage": "https://www.atv.com.tr/a2tv/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "SozcuTV.tr",
+      "rank": 16,
+      "name": "Sözcü TV",
+      "aliases": [
+        "Sozcu TV",
+        "SZC TV"
+      ],
+      "exclude": [],
+      "group": "Haber",
+      "logo": "https://i.imgur.com/BxpdvsG.png",
+      "officialLivePage": "https://www.szctv.com.tr/canli-yayin-izle",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true,
+      "note": "Not in public stream lists. Its official live page embeds Sözcü TV's own YouTube live, which opens in the YouTube app (opt-in, Settings > Live TV).",
+      "resolver": {
+        "type": "youtube",
+        "page": "https://www.szctv.com.tr/canli-yayin-izle",
+        "ttlMinutes": 60,
+        "termsReviewed": "2026-10-17: robots.txt allows all agents. The stream is a YouTube embed: the app only reads the video id and hands it to the YouTube app, as YouTube's terms require; it never extracts YouTube media."
+      }
+    },
+    {
+      "id": "AHaber.tr",
+      "rank": 17,
+      "name": "A Haber",
+      "aliases": [],
+      "exclude": [
+        "A News",
+        "A Spor",
+        "A Para"
+      ],
+      "group": "Haber",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png",
+      "officialLivePage": "https://www.ahaber.com.tr/video/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "TRTBelgesel.tr",
+      "rank": 18,
+      "name": "TRT Belgesel",
+      "aliases": [],
+      "exclude": [],
+      "group": "Belgesel",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png",
+      "officialLivePage": "https://www.tabii.com/tr/watch/live/trtbelgesel",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "TRTCocuk.tr",
+      "rank": 19,
+      "name": "TRT Çocuk",
+      "aliases": [
+        "TRT Cocuk"
+      ],
+      "exclude": [
+        "TRT Diyanet Çocuk"
+      ],
+      "group": "Çocuk",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png",
+      "officialLivePage": "https://www.trtcocuk.net.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "ASpor.tr",
+      "rank": 20,
+      "name": "A Spor",
+      "aliases": [],
+      "exclude": [
+        "A Haber",
+        "A Para"
+      ],
+      "group": "Spor",
+      "logo": "https://i.imgur.com/ZhkZzLf.png",
+      "officialLivePage": "https://www.aspor.com.tr/webtv/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "360.tr",
+      "rank": 21,
+      "name": "360",
+      "aliases": [
+        "360 TV",
+        "TV360"
+      ],
+      "exclude": [],
+      "group": "Ulusal",
+      "logo": "https://i.imgur.com/agn47sQ.png",
+      "officialLivePage": "https://www.tv360.com.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "NTV.tr",
+      "rank": 22,
+      "name": "NTV",
+      "aliases": [],
+      "exclude": [
+        "NTV Spor",
+        "NTV Avrupa"
+      ],
+      "group": "Haber",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png",
+      "officialLivePage": "https://www.ntv.com.tr/canli-yayin/ntv",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "HaberturkTV.tr",
+      "rank": 23,
+      "name": "Habertürk",
+      "aliases": [
+        "Habertürk TV",
+        "Haberturk"
+      ],
+      "exclude": [],
+      "group": "Haber",
+      "logo": "https://i.imgur.com/6Tw3rUp.png",
+      "officialLivePage": "https://www.haberturk.com/canliyayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "CartoonNetwork.tr",
+      "rank": 24,
+      "name": "Cartoon Network",
+      "aliases": [],
+      "exclude": [
+        "Cartoonito"
+      ],
+      "group": "Çocuk",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
+      "officialLivePage": null,
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": false,
+      "note": "No official free stream: cartoonnetwork.com.tr/canli-yayin redirects to a WBD broadcaster page."
+    },
+    {
+      "id": "TLC.tr",
+      "rank": 25,
+      "name": "TLC",
+      "aliases": [
+        "TLC Türkiye"
+      ],
+      "exclude": [],
+      "group": "Belgesel",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png",
+      "officialLivePage": "https://www.tlctv.com.tr/canli-izle",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true,
+      "note": "Not in iptv-org streams; official page streams in its own player."
+    },
+    {
+      "id": "DMAX.tr",
+      "rank": 26,
+      "name": "DMAX",
+      "aliases": [
+        "DMAX Türkiye"
+      ],
+      "exclude": [],
+      "group": "Belgesel",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png",
+      "officialLivePage": "https://www.dmax.com.tr/canli-izle",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true,
+      "note": "Not in iptv-org streams; official page streams in its own player."
+    },
+    {
+      "id": "TV100.tr",
+      "rank": 27,
+      "name": "TV100",
+      "aliases": [
+        "TV 100",
+        "tv100"
+      ],
+      "exclude": [],
+      "group": "Haber",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png",
+      "officialLivePage": "https://www.tv100.com/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true,
+      "note": "Not in iptv-org streams."
+    },
+    {
+      "id": "TGRTHaber.tr",
+      "rank": 28,
+      "name": "TGRT Haber",
+      "aliases": [],
+      "exclude": [
+        "TGRT Belgesel",
+        "TGRT EU"
+      ],
+      "group": "Haber",
+      "logo": "https://i.imgur.com/PrxwKDw.png",
+      "officialLivePage": "https://www.tgrthaber.com/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "MinikaCocuk.tr",
+      "rank": 29,
+      "name": "Minika Çocuk",
+      "aliases": [
+        "Minika Cocuk"
+      ],
+      "exclude": [
+        "Minika GO"
+      ],
+      "group": "Çocuk",
+      "logo": "https://i.imgur.com/VCywMTv.png",
+      "officialLivePage": "https://www.minikacocuk.com.tr/webtv/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "UlkeTV.tr",
+      "rank": 30,
+      "name": "Ülke TV",
+      "aliases": [
+        "Ulke TV"
+      ],
+      "exclude": [],
+      "group": "Haber",
+      "logo": "https://i.imgur.com/wdWR7Qk.png",
+      "officialLivePage": "https://www.ulketv.com/ulke-tv-canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "HaberGlobal.tr",
+      "rank": 31,
+      "name": "Haber Global",
+      "aliases": [],
+      "exclude": [],
+      "group": "Haber",
+      "logo": "https://i.imgur.com/fu6XeGS.png",
+      "officialLivePage": "https://haberglobal.com/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "TV85.tr",
+      "rank": 32,
+      "name": "TV8,5",
+      "aliases": [
+        "TV 8.5",
+        "TV8.5",
+        "TV 8,5",
+        "TV8 Buçuk"
+      ],
+      "exclude": [
+        "TV8"
+      ],
+      "group": "Ulusal",
+      "logo": "https://i.imgur.com/QuelSsc.png",
+      "officialLivePage": null,
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true,
+      "note": "Not in iptv-org streams; tv8bucuk.com was unreachable during verification (2026-10-17), live page left blank."
+    },
+    {
+      "id": "TRTMuzik.tr",
+      "rank": 33,
+      "name": "TRT Müzik",
+      "aliases": [
+        "TRT Muzik"
+      ],
+      "exclude": [],
+      "group": "Müzik",
+      "logo": "https://i.imgur.com/JgUzRH8.png",
+      "officialLivePage": "https://www.trtmuzik.net.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "TRTSporYildiz.tr",
+      "rank": 34,
+      "name": "TRT Spor Yıldız",
+      "aliases": [
+        "TRT Spor Yildiz"
+      ],
+      "exclude": [],
+      "group": "Spor",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png",
+      "officialLivePage": "https://www.tabii.com/tr/watch/live/trtsporyildiz",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    },
+    {
+      "id": "BiKanal.tr",
+      "rank": 35,
+      "name": "Bi Kanal",
+      "aliases": [
+        "BiKanal"
+      ],
+      "exclude": [
+        "Bir TV"
+      ],
+      "group": "Ulusal",
+      "logo": null,
+      "officialLivePage": "https://www.bikanal.com/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true,
+      "note": "No iptv-org channel entry; BiKanal.tr is a local id, so only aliases and pinned urls can match. BirTV.tr is a different channel."
+    },
+    {
+      "id": "FlashTV.tr",
+      "rank": 36,
+      "name": "Flash TV",
+      "aliases": [],
+      "exclude": [
+        "Flash Haber TV",
+        "Flash Haber"
+      ],
+      "group": "Ulusal",
+      "logo": "https://i.imgur.com/L0NHKBM.png",
+      "officialLivePage": null,
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true,
+      "note": "Not in iptv-org streams; flashtv.com.tr was unreachable during verification (2026-10-17), live page left blank."
+    },
+    {
+      "id": "UlusalKanal.tr",
+      "rank": 37,
+      "name": "Ulusal Kanal",
+      "aliases": [],
+      "exclude": [],
+      "group": "Haber",
+      "logo": "https://i.imgur.com/EwSg612.png",
+      "officialLivePage": "https://www.ulusal.com.tr/ulusal-kanal-canli-izle",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true,
+      "note": "Not in iptv-org streams."
+    },
+    {
+      "id": "Tele1.tr",
+      "rank": 38,
+      "name": "Tele1",
+      "aliases": [
+        "Tele 1"
+      ],
+      "exclude": [],
+      "group": "Haber",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png",
+      "officialLivePage": "https://www.tele1.com.tr/canli-yayin",
+      "headers": {},
+      "pinnedUrls": [],
+      "enabled": true
+    }
+  ]
+}
