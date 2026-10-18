@@ -132,7 +132,8 @@ Rules:
 
 - **Review first.** Before adding a resolver, read the site's terms of use and its `robots.txt`, and
   write what you found in `termsReviewed`. Do not add one when either forbids automated access to
-  the stream. CNN Türk's `robots.txt`, for example, disallows `/*index.m3u8`, so it has none.
+  the stream. CNN Türk's `robots.txt`, for example, disallows `/*index.m3u8`, so it has none. NOW's
+  terms forbid deep-linking and playing its content outside its own services, so it has none either.
 - **Resolved links never leave the viewer's TV.** The Action never runs resolvers. They never
   appear in `playlist.m3u` or `candidates.json`.
 - **Viewers opt in.** The app runs resolvers only when **Settings → Live TV → Links from official

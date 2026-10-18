@@ -147,7 +147,8 @@
       "officialLivePage": "https://www.nowtv.com.tr/canli-yayin",
       "headers": {},
       "pinnedUrls": [],
-      "enabled": true
+      "enabled": true,
+      "note": "Plays from the static TurkNet stream listed by iptv-org. No resolver on purpose: nowtv.com.tr's terms allow viewing only through NOW's own services and forbid deep-linking, playing content elsewhere and circumventing access controls such as its signed links (checked 2026-10-18)."
     },
     {
       "id": "Kanal7.tr",
