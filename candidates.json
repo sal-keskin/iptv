@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-17T11:26:48Z",
+  "generated": "2026-10-18T07:22:20Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -8,11 +8,11 @@
     },
     "iptvorg-tr": {
       "ok": true,
-      "candidates": 215
+      "candidates": 221
     },
     "iptvorg-api": {
       "ok": true,
-      "candidates": 243
+      "candidates": 249
     },
     "free-tv": {
       "ok": true,
@@ -872,8 +872,8 @@
           "matchedName": "Tele 1 (1080p)",
           "matchedTvgId": "Tele1.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "HTTP 404"
           }
         }
       ]
