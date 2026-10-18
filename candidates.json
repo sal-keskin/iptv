@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-18T07:22:20Z",
+  "generated": "2026-10-18T07:59:49Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -872,8 +872,8 @@
           "matchedName": "Tele 1 (1080p)",
           "matchedTvgId": "Tele1.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "HTTP 404"
+            "ok": true,
+            "reason": null
           }
         }
       ]
