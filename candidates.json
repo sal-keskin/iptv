@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-18T07:59:49Z",
+  "generated": "2026-10-19T08:49:46Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -8,11 +8,11 @@
     },
     "iptvorg-tr": {
       "ok": true,
-      "candidates": 221
+      "candidates": 220
     },
     "iptvorg-api": {
       "ok": true,
-      "candidates": 249
+      "candidates": 248
     },
     "free-tv": {
       "ok": true,
@@ -39,8 +39,8 @@
           "matchedName": "ATV (1080p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "TimeoutError"
           }
         },
         {
@@ -210,24 +210,6 @@
           "ciCheck": {
             "ok": true,
             "reason": null
-          }
-        },
-        {
-          "url": "http://116.202.238.88/FOXTV_TR/index.m3u8",
-          "source": "iptvorg-tr",
-          "tier": "EXACT_ID",
-          "tierCode": 1,
-          "score": 1.0,
-          "trust": 0.675,
-          "priority": 0.675,
-          "heightHint": null,
-          "headers": {},
-          "labels": [],
-          "matchedName": "NOW TV",
-          "matchedTvgId": "NOWTV.tr@SD",
-          "ciCheck": {
-            "ok": false,
-            "reason": "URLError"
           }
         }
       ]
@@ -484,8 +466,8 @@
           "matchedName": "TRT Belgesel",
           "matchedTvgId": "TRTBelgesel.tr",
           "ciCheck": {
-            "ok": false,
-            "reason": "HTTP 503"
+            "ok": true,
+            "reason": null
           }
         }
       ]
@@ -872,8 +854,8 @@
           "matchedName": "Tele 1 (1080p)",
           "matchedTvgId": "Tele1.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "HTTP 404"
           }
         }
       ]
