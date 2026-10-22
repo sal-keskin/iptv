@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-21T08:32:13Z",
+  "generated": "2026-10-22T08:34:44Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -57,8 +57,8 @@
           "matchedName": "ATV (360p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "TimeoutError"
           }
         }
       ]
@@ -854,8 +854,8 @@
           "matchedName": "Tele 1 (1080p)",
           "matchedTvgId": "Tele1.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "HTTP 404"
           }
         }
       ]
