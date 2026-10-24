@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-23T08:30:58Z",
+  "generated": "2026-10-24T08:05:48Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -39,8 +39,8 @@
           "matchedName": "ATV (1080p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "TimeoutError"
+            "ok": true,
+            "reason": null
           }
         },
         {
@@ -57,8 +57,8 @@
           "matchedName": "ATV (360p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "TimeoutError"
+            "ok": true,
+            "reason": null
           }
         }
       ]
