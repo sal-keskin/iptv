@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-24T08:05:48Z",
+  "generated": "2026-10-25T08:23:11Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -8,11 +8,11 @@
     },
     "iptvorg-tr": {
       "ok": true,
-      "candidates": 220
+      "candidates": 222
     },
     "iptvorg-api": {
       "ok": true,
-      "candidates": 248
+      "candidates": 250
     },
     "free-tv": {
       "ok": true,
@@ -210,6 +210,24 @@
           "ciCheck": {
             "ok": true,
             "reason": null
+          }
+        },
+        {
+          "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "ALIAS",
+          "tierCode": 2,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.81,
+          "heightHint": 720,
+          "headers": {},
+          "labels": [],
+          "matchedName": "NOW (720p)",
+          "matchedTvgId": "NOW.tr@SD",
+          "ciCheck": {
+            "ok": false,
+            "reason": "TimeoutError"
           }
         }
       ]
@@ -727,7 +745,7 @@
           "matchedTvgId": "UlkeTV.tr@SD",
           "ciCheck": {
             "ok": false,
-            "reason": "HTTP 403"
+            "reason": "URLError"
           }
         }
       ]
