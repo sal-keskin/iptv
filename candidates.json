@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-30T09:58:15Z",
+  "generated": "2026-10-31T09:36:22Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -8,11 +8,11 @@
     },
     "iptvorg-tr": {
       "ok": true,
-      "candidates": 209
+      "candidates": 210
     },
     "iptvorg-api": {
       "ok": true,
-      "candidates": 237
+      "candidates": 238
     },
     "free-tv": {
       "ok": true,
@@ -226,8 +226,8 @@
           "matchedName": "NOW (720p)",
           "matchedTvgId": "NOW.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "TimeoutError"
           }
         }
       ]
@@ -509,8 +509,8 @@
           "matchedName": "TRT Cocuk (1440p)",
           "matchedTvgId": "TRTCocuk.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "HTTP 403"
           }
         }
       ]
@@ -872,8 +872,8 @@
           "matchedName": "Tele 1 (1080p)",
           "matchedTvgId": "Tele1.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "HTTP 404"
+            "ok": true,
+            "reason": null
           }
         }
       ]
