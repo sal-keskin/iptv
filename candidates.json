@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-03T10:48:40Z",
+  "generated": "2026-11-04T10:52:25Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -39,8 +39,8 @@
           "matchedName": "ATV (1080p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "TimeoutError"
           }
         },
         {
@@ -226,8 +226,8 @@
           "matchedName": "NOW (720p)",
           "matchedTvgId": "NOW.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "TimeoutError"
+            "ok": true,
+            "reason": null
           }
         }
       ]
