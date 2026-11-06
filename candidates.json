@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-05T10:51:07Z",
+  "generated": "2026-11-06T10:50:19Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -39,8 +39,8 @@
           "matchedName": "ATV (1080p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "TimeoutError"
+            "ok": true,
+            "reason": null
           }
         },
         {
@@ -196,17 +196,17 @@
       "candidates": [
         {
           "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8",
-          "source": "iptvorg-api",
-          "tier": "EXACT_ID",
-          "tierCode": 1,
+          "source": "iptvorg-tr",
+          "tier": "ALIAS",
+          "tierCode": 2,
           "score": 1.0,
-          "trust": 0.85,
-          "priority": 0.85,
+          "trust": 0.9,
+          "priority": 0.81,
           "heightHint": 720,
           "headers": {},
           "labels": [],
-          "matchedName": "NOW TV",
-          "matchedTvgId": "NOWTV.tr@SD",
+          "matchedName": "NOW TV (720p)",
+          "matchedTvgId": null,
           "ciCheck": {
             "ok": true,
             "reason": null
@@ -226,8 +226,8 @@
           "matchedName": "NOW (720p)",
           "matchedTvgId": "NOW.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "TimeoutError"
           }
         }
       ]
