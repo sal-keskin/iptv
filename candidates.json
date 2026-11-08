@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-07T10:03:33Z",
+  "generated": "2026-11-08T10:17:18Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -39,8 +39,8 @@
           "matchedName": "ATV (1080p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "TimeoutError"
+            "ok": true,
+            "reason": null
           }
         },
         {
@@ -484,8 +484,8 @@
           "matchedName": "TRT Belgesel",
           "matchedTvgId": "TRTBelgesel.tr",
           "ciCheck": {
-            "ok": false,
-            "reason": "HTTP 503"
+            "ok": true,
+            "reason": null
           }
         }
       ]
@@ -872,8 +872,8 @@
           "matchedName": "Tele 1 (1080p)",
           "matchedTvgId": "Tele1.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "HTTP 404"
           }
         }
       ]
