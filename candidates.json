@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-08T10:17:18Z",
+  "generated": "2026-11-09T11:27:27Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -8,11 +8,11 @@
     },
     "iptvorg-tr": {
       "ok": true,
-      "candidates": 210
+      "candidates": 211
     },
     "iptvorg-api": {
       "ok": true,
-      "candidates": 238
+      "candidates": 239
     },
     "free-tv": {
       "ok": true,
@@ -39,8 +39,8 @@
           "matchedName": "ATV (1080p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "TimeoutError"
           }
         },
         {
@@ -226,8 +226,8 @@
           "matchedName": "NOW (720p)",
           "matchedTvgId": "NOW.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "TimeoutError"
+            "ok": true,
+            "reason": null
           }
         }
       ]
@@ -358,7 +358,26 @@
       "id": "CNNTurk.tr",
       "rank": 12,
       "name": "CNN Türk",
-      "candidates": []
+      "candidates": [
+        {
+          "url": "http://85.117.61.84/cnnturk/index.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.675,
+          "priority": 0.675,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "CNN Turk (1080p)",
+          "matchedTvgId": "CNNTurk.tr@SD",
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
+        }
+      ]
     },
     {
       "id": "TRTSpor.tr",
@@ -484,8 +503,8 @@
           "matchedName": "TRT Belgesel",
           "matchedTvgId": "TRTBelgesel.tr",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "HTTP 503"
           }
         }
       ]
@@ -509,8 +528,8 @@
           "matchedName": "TRT Cocuk (1440p)",
           "matchedTvgId": "TRTCocuk.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "HTTP 403"
           }
         }
       ]
