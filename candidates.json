@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-09T11:27:27Z",
+  "generated": "2026-11-10T11:08:10Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -39,8 +39,8 @@
           "matchedName": "ATV (1080p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "TimeoutError"
+            "ok": true,
+            "reason": null
           }
         },
         {
@@ -528,8 +528,8 @@
           "matchedName": "TRT Cocuk (1440p)",
           "matchedTvgId": "TRTCocuk.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "HTTP 403"
+            "ok": true,
+            "reason": null
           }
         }
       ]
