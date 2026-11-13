@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-12T11:02:04Z",
+  "generated": "2026-11-13T10:56:04Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -8,11 +8,11 @@
     },
     "iptvorg-tr": {
       "ok": true,
-      "candidates": 211
+      "candidates": 212
     },
     "iptvorg-api": {
       "ok": true,
-      "candidates": 239
+      "candidates": 240
     },
     "free-tv": {
       "ok": true,
@@ -439,7 +439,26 @@
       "id": "SozcuTV.tr",
       "rank": 16,
       "name": "Sözcü TV",
-      "candidates": []
+      "candidates": [
+        {
+          "url": "https://filbox-to-m3u8.onrender.com/stream/szchd.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.675,
+          "priority": 0.675,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "Sozcu TV (1080p)",
+          "matchedTvgId": "SozcuTV.tr@SD",
+          "ciCheck": {
+            "ok": false,
+            "reason": "HTTP 503"
+          }
+        }
+      ]
     },
     {
       "id": "AHaber.tr",
@@ -503,8 +522,8 @@
           "matchedName": "TRT Belgesel",
           "matchedTvgId": "TRTBelgesel.tr",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "HTTP 503"
           }
         }
       ]
@@ -891,8 +910,8 @@
           "matchedName": "Tele 1 (1080p)",
           "matchedTvgId": "Tele1.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "HTTP 404"
+            "ok": true,
+            "reason": null
           }
         }
       ]
