@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-13T10:56:04Z",
+  "generated": "2026-11-14T10:22:25Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -8,11 +8,11 @@
     },
     "iptvorg-tr": {
       "ok": true,
-      "candidates": 212
+      "candidates": 213
     },
     "iptvorg-api": {
       "ok": true,
-      "candidates": 240
+      "candidates": 241
     },
     "free-tv": {
       "ok": true,
@@ -39,8 +39,8 @@
           "matchedName": "ATV (1080p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "TimeoutError"
+            "ok": true,
+            "reason": null
           }
         },
         {
@@ -226,8 +226,8 @@
           "matchedName": "NOW (720p)",
           "matchedTvgId": "NOW.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "TimeoutError"
           }
         }
       ]
@@ -441,7 +441,7 @@
       "name": "Sözcü TV",
       "candidates": [
         {
-          "url": "https://filbox-to-m3u8.onrender.com/stream/szchd.m3u8",
+          "url": "https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8",
           "source": "iptvorg-tr",
           "tier": "EXACT_ID",
           "tierCode": 1,
@@ -454,8 +454,8 @@
           "matchedName": "Sozcu TV (1080p)",
           "matchedTvgId": "SozcuTV.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "HTTP 503"
+            "ok": true,
+            "reason": null
           }
         }
       ]
