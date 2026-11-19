@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-18T11:37:41Z",
+  "generated": "2026-11-19T11:35:48Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -226,8 +226,8 @@
           "matchedName": "NOW (720p)",
           "matchedTvgId": "NOW.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "TimeoutError"
+            "ok": true,
+            "reason": null
           }
         }
       ]
@@ -910,8 +910,8 @@
           "matchedName": "Tele 1 (1080p)",
           "matchedTvgId": "Tele1.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "HTTP 404"
           }
         }
       ]
