@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-21T10:57:53Z",
+  "generated": "2026-11-22T11:18:39Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -226,8 +226,8 @@
           "matchedName": "NOW (720p)",
           "matchedTvgId": "NOW.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "TimeoutError"
           }
         }
       ]
@@ -618,10 +618,10 @@
           "score": 1.0,
           "trust": 0.9,
           "priority": 0.9,
-          "heightHint": null,
+          "heightHint": 1080,
           "headers": {},
           "labels": [],
-          "matchedName": "NTV",
+          "matchedName": "NTV (1080p)",
           "matchedTvgId": "NTV.tr@SD",
           "ciCheck": {
             "ok": true,
@@ -910,8 +910,8 @@
           "matchedName": "Tele 1 (1080p)",
           "matchedTvgId": "Tele1.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "HTTP 404"
           }
         }
       ]
