@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-22T11:18:39Z",
+  "generated": "2026-11-23T12:32:05Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -39,8 +39,8 @@
           "matchedName": "ATV (1080p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": true,
-            "reason": null
+            "ok": false,
+            "reason": "TimeoutError"
           }
         },
         {
@@ -181,7 +181,7 @@
           "headers": {},
           "labels": [],
           "matchedName": "TRT 1 (1440p)",
-          "matchedTvgId": "TRT1.tr@SD",
+          "matchedTvgId": "TRT1.tr@HD",
           "ciCheck": {
             "ok": true,
             "reason": null
