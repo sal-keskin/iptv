@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-23T12:32:05Z",
+  "generated": "2026-11-24T13:39:09Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -8,7 +8,7 @@
     },
     "iptvorg-tr": {
       "ok": true,
-      "candidates": 216
+      "candidates": 217
     },
     "iptvorg-api": {
       "ok": true,
@@ -226,8 +226,8 @@
           "matchedName": "NOW (720p)",
           "matchedTvgId": "NOW.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "TimeoutError"
+            "ok": true,
+            "reason": null
           }
         }
       ]
