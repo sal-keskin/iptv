@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-24T13:39:09Z",
+  "generated": "2026-11-25T12:49:45Z",
   "ciCheckIsHintOnly": true,
   "sources": {
     "self": {
@@ -39,8 +39,8 @@
           "matchedName": "ATV (1080p)",
           "matchedTvgId": "ATV.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "TimeoutError"
+            "ok": true,
+            "reason": null
           }
         },
         {
@@ -877,7 +877,26 @@
       "id": "BiKanal.tr",
       "rank": 35,
       "name": "Bi Kanal",
-      "candidates": []
+      "candidates": [
+        {
+          "url": "https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8",
+          "source": "iptvorg-tr",
+          "tier": "EXACT_ID",
+          "tierCode": 1,
+          "score": 1.0,
+          "trust": 0.9,
+          "priority": 0.9,
+          "heightHint": 1080,
+          "headers": {},
+          "labels": [],
+          "matchedName": "Bi Kanal (1080p)",
+          "matchedTvgId": "BiKanal.tr@SD",
+          "ciCheck": {
+            "ok": true,
+            "reason": null
+          }
+        }
+      ]
     },
     {
       "id": "FlashTV.tr",
@@ -910,8 +929,8 @@
           "matchedName": "Tele 1 (1080p)",
           "matchedTvgId": "Tele1.tr@SD",
           "ciCheck": {
-            "ok": false,
-            "reason": "HTTP 404"
+            "ok": true,
+            "reason": null
           }
         }
       ]
